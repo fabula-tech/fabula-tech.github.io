@@ -9,6 +9,59 @@
     <!-- page one -->
     <div class="miw-w-[375px]">
       <div class="bg-blue-200 h-screen relative">
+        <div class="flex flex-row-reverse">
+          <a href="/src/sp/index.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="flag-icons-cl"
+              viewBox="0 0 640 480"
+              class="w-6 h-6 m-2"
+            >
+              <defs>
+                <clipPath id="a">
+                  <path fill-opacity=".7" d="M0 0h682.7v512H0z" />
+                </clipPath>
+              </defs>
+              <g
+                fill-rule="evenodd"
+                clip-path="url(#a)"
+                transform="scale(.9375)"
+              >
+                <path fill="#fff" d="M256 0h512v256H256z" />
+                <path fill="#0039a6" d="M0 0h256v256H0z" />
+                <path
+                  fill="#fff"
+                  d="M167.8 191.7 128.2 162l-39.5 30 14.7-48.8L64 113.1l48.7-.5L127.8 64l15.5 48.5 48.7.1-39.2 30.4 15 48.7z"
+                />
+                <path fill="#d52b1e" d="M0 256h768v256H0z" />
+              </g>
+            </svg>
+          </a>
+          <a href="/src/index.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              id="flag-icons-us"
+              viewBox="0 0 640 480"
+              class="w-6 h-6 m-2"
+            >
+              <path fill="#bd3d44" d="M0 0h640v480H0" />
+              <path
+                stroke="#fff"
+                stroke-width="37"
+                d="M0 55.3h640M0 129h640M0 203h640M0 277h640M0 351h640M0 425h640"
+              />
+              <path fill="#192f5d" d="M0 0h364.8v258.5H0" />
+              <marker id="a" markerHeight="30" markerWidth="30">
+                <path fill="#fff" d="m14 0 9 27L0 10h28L5 27z" />
+              </marker>
+              <path
+                fill="none"
+                marker-mid="url(#a)"
+                d="m0 0 16 11h61 61 61 61 60L47 37h61 61 60 61L16 63h61 61 61 61 60L47 89h61 61 60 61L16 115h61 61 61 61 60L47 141h61 61 60 61L16 166h61 61 61 61 60L47 192h61 61 60 61L16 218h61 61 61 61 60L0 0"
+              />
+            </svg>
+          </a>
+        </div>
         <div class="absolute top-1/4 left-[10vw]">
           <div
             class="font-mono text-7xl sm:text-9xl hover:scale-110 transition-all duration-500"
@@ -38,7 +91,7 @@
           </div>
         </div>
         <div
-          class="text-[150px] text-bold opacity-20 text-right text-slate-800 z-0 absolute top-0 right-0"
+          class="text-[15vh] text-bold opacity-30 text-right text-slate-800 z-0 absolute top-0 right-0"
         >
           we <br />
           build <br />
@@ -125,8 +178,8 @@
             </div>
             <p class="text-sm sm:text-base font-mono text-slate-800 p-2">
               technology can be confusing. we know this. so many options. leave
-              the hard decision making to us, and focus on your business. our
-              job is to let you focus on what matters, and provide best in class
+              the tech decision making to us, and focus on your business. our
+              job is to let you focus on what matters and provide the best
               solutions for
               <span class="font-semibold text-red-500 animate-pulse">you</span>
             </p>
@@ -222,21 +275,25 @@
         </div>
         <div class="w-full -mb-[7vw] -mt-[7vw]">
           <!-- talk to us -->
-          <p class="text-right font-mono text-[16vw] text-blue-300 whitespace-nowrap">
+          <p
+            class="text-right font-mono text-[16vw] text-blue-300 whitespace-nowrap"
+          >
             talk to us
           </p>
         </div>
       </div>
 
       <!-- page four -->
-      <div class="bg-slate-700 h-screen relative flex flex-col justify-around">
+      <div
+        class="bg-slate-700 min-h-screen relative flex flex-col justify-around"
+      >
         <div
-          class="w-fit font-mono pl-10 md:text-5xl text-green-500 text-2xl sm:text-4xl hover:scale-110 transition-all duration-500"
+          class="w-fit font-mono pl-5 sm:pl-10 my-4 md:text-5xl text-green-500 text-2xl sm:text-4xl hover:scale-110 transition-all duration-500"
         >
           <p class="typed">> build with confidence</p>
         </div>
         <div
-          class="hover:scale-105 hover:shadow-2xl transition-all duration-500 mx-auto bg-slate-800 w-[80vw] max-w-2xl flex flex-col justify-center rounded-lg shadow-lg p-4"
+          class="hover:scale-105 hover:shadow-2xl my-4 transition-all duration-500 mx-auto bg-slate-800 w-[80vw] max-w-2xl flex flex-col justify-center rounded-lg shadow-lg p-4"
         >
           <p class="sm:text-lg font-semibold font-mono text-slate-200 p-2">
             strategy saves money, today and tomorrow
@@ -249,7 +306,7 @@
           </p>
         </div>
         <div
-          class="hover:shadow-2xl hover:scale-105 transition-all duration-500 mx-auto bg-slate-800 w-[80vw] max-w-2xl flex flex-col justify-center rounded-lg shadow-lg p-4"
+          class="hover:shadow-2xl hover:scale-105 my-4 transition-all duration-500 mx-auto bg-slate-800 w-[80vw] max-w-2xl flex flex-col justify-center rounded-lg shadow-lg p-4"
         >
           <p class="sm:text-lg font-semibold font-mono text-slate-200 p-2">
             develop, integrate, optimize
@@ -328,7 +385,7 @@
             <div class="hover:rotate-3">
               <img
                 class="inline-block h-24 sm:h-52 rounded-full ring-2 ring-white"
-                src="/public/pipe-2.jpg"
+                src="/public/pipe-2.JPG"
                 alt=""
               />
             </div>
@@ -361,11 +418,15 @@
       </div>
     </div>
     <div
-      class="border-t-4 border-red-800 flex flex-col items-center text-lg bg-slate-800 text-slate-100 p-10"
+      class="border-t-4 border-red-800 flex flex-col items-center text-sm sm:text-lg bg-slate-800 text-slate-100 p-10"
     >
       <p class="font-mono mt-2">new york - washington dc - santiago</p>
       <p class="font-mono mt-2">copyright 2023 - fabula tech</p>
-      <a href="mailto:contact@fabula-tech.io" class="font-mono hover:font-semibold mt-2">contact@fabula-tech.io</p>
+      <a
+        href="mailto:contact@fabula-tech.io"
+        class="font-mono hover:font-semibold mt-2"
+        >contact@fabula-tech.io</a
+      >
     </div>
   </body>
 </html>
